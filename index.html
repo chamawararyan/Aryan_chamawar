@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Startup 3</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar active">
+            <ul>
+                <li><a href="" style="color: rgb(146, 146, 236);">Overview</a></li>
+                <li><a href="">Prices</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Feedback</a></li>
+                <li><a href="" class="active">Purchase</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+        <div class="container-info">
+            <pre id="aryan">Generate
+Awesome Web
+Pages
+</pre>
+<pre id="bablu">The most important part of
+Startup is the samples. The 
+samples form a set of 25 usable 
+pages you can use as is or you can
+add new blocks.
+</pre>
+            <button type="submit">Learn More</button>
+        </div>
+        <div class="container-signup">
+            <form action="">
+                <h1>Sign Up Now</h1>
+                <input type="email" placeholder="Your email" required>
+                <input type="password" placeholder="Your password">
+                <label>
+                    <input type="checkbox" name="" required>I agree to the Terms of Services.</label>
+                    <input type="submit" value="Sign-in" name="">
+                <input type="button" value="Login via Twitter" name="">
+                <p>Do you have an Account? <a href="#">Sign in</a></p>
+            </form>
+        </div>
+    </section>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
